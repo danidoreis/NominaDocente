@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA376C64-6A78-49A2-B04D-50F86AC9978A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NominaDocente</RootNamespace>
+    <AssemblyName>WebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrar.aspx" />
+    <Content Include="Bin\WebApplication.dll" />
+    <Content Include="Bin\WebApplication.pdb" />
+    <Content Include="cons_docente.aspx" />
+    <Content Include="content\css\bootstrap.css" />
+    <Content Include="content\css\bootstrap.min.css" />
+    <Content Include="content\css\Style.css" />
+    <Content Include="default.aspx" />
+    <Content Include="elmFuncion.aspx" />
+    <Content Include="elmPerfil.aspx" />
+    <Content Include="elmUsuario.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="img\Escudo.png" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="Logout.aspx" />
+    <Content Include="mesa_examen.aspx" />
+    <Content Include="modFuncion.aspx" />
+    <Content Include="modificar.aspx" />
+    <Content Include="modPerfil.aspx" />
+    <Content Include="modUsuario.aspx" />
+    <Content Include="NominaDocente.Publish.xml" />
+    <Content Include="obj\Debug\NominaDocente.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Docentes.BLL.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Docentes.BLL.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Docentes.DAL.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\Docentes.DAL.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\NominaDocente.Entidades.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\NominaDocente.Entidades.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\WebApplication.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\WebApplication.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\cons_docente.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\content\css\bootstrap.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\content\css\bootstrap.min.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\content\css\Style.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\Escudo.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\favicon.ico" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\ficha-azul.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\ficha-naranje.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\ficha-violet.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\fichas - copia %283%29.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\img\fichas - copia %284%29.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\index.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\mesa_examen.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\NominaDocente.Publish.xml" />
+    <Content Include="obj\Debug\Package\PackageTmp\obj\Debug\NominaDocente.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Package\PackageTmp\obj\Debug\WebApplication.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\obj\Debug\WebApplication.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\reg_carg_hor.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\reg_docente.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\reporte_curso.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\reporte_docente.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\reporte_mesa_examen.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\bootstrap.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\bootstrap.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\jquery-2.0.3.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\jquery.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\jquery.validate.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\scripts\script.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\styles\estilos.css" />
+    <Content Include="obj\Debug\WebApplication.dll" />
+    <Content Include="obj\Debug\WebApplication.pdb" />
+    <Content Include="registrar.aspx" />
+    <Content Include="reg_docente.aspx" />
+    <Content Include="img\ficha-azul.jpg" />
+    <Content Include="img\ficha-naranje.png" />
+    <Content Include="img\ficha-violet.jpg" />
+    <Content Include="img\fichas - copia %283%29.png" />
+    <Content Include="img\fichas - copia %284%29.png" />
+    <Content Include="index.aspx" />
+    <Content Include="reg_carg_hor.aspx" />
+    <Content Include="reg_funcion.aspx" />
+    <Content Include="reg_perfil.aspx" />
+    <Content Include="reg_usuario.aspx" />
+    <Content Include="reporte_curso.aspx" />
+    <Content Include="reporte_docente.aspx" />
+    <Content Include="reporte_mesa_examen.aspx" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-2.0.3.min.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\jquery.validate.min.js" />
+    <Content Include="scripts\script.js" />
+    <Content Include="styles\estilos.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrar.aspx.cs">
+      <DependentUpon>administrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrar.aspx.designer.cs">
+      <DependentUpon>administrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cons_docente.aspx.cs">
+      <DependentUpon>cons_docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cons_docente.aspx.designer.cs">
+      <DependentUpon>cons_docente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="elmFuncion.aspx.cs">
+      <DependentUpon>elmFuncion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="elmFuncion.aspx.designer.cs">
+      <DependentUpon>elmFuncion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="elmPerfil.aspx.cs">
+      <DependentUpon>elmPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="elmPerfil.aspx.designer.cs">
+      <DependentUpon>elmPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="elmUsuario.aspx.cs">
+      <DependentUpon>elmUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="elmUsuario.aspx.designer.cs">
+      <DependentUpon>elmUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mesa_examen.aspx.cs">
+      <DependentUpon>mesa_examen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mesa_examen.aspx.designer.cs">
+      <DependentUpon>mesa_examen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modFuncion.aspx.cs">
+      <DependentUpon>modFuncion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modFuncion.aspx.designer.cs">
+      <DependentUpon>modFuncion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modificar.aspx.cs">
+      <DependentUpon>modificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modificar.aspx.designer.cs">
+      <DependentUpon>modificar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modPerfil.aspx.cs">
+      <DependentUpon>modPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modPerfil.aspx.designer.cs">
+      <DependentUpon>modPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modUsuario.aspx.cs">
+      <DependentUpon>modUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modUsuario.aspx.designer.cs">
+      <DependentUpon>modUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registrar.aspx.cs">
+      <DependentUpon>registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registrar.aspx.designer.cs">
+      <DependentUpon>registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg_docente.aspx.cs">
+      <DependentUpon>reg_docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg_docente.aspx.designer.cs">
+      <DependentUpon>reg_docente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reg_carg_hor.aspx.cs">
+      <DependentUpon>reg_carg_hor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg_carg_hor.aspx.designer.cs">
+      <DependentUpon>reg_carg_hor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg_funcion.aspx.cs">
+      <DependentUpon>reg_funcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg_funcion.aspx.designer.cs">
+      <DependentUpon>reg_funcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg_perfil.aspx.cs">
+      <DependentUpon>reg_perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg_perfil.aspx.designer.cs">
+      <DependentUpon>reg_perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reg_usuario.aspx.cs">
+      <DependentUpon>reg_usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reg_usuario.aspx.designer.cs">
+      <DependentUpon>reg_usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reporte_curso.aspx.cs">
+      <DependentUpon>reporte_curso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reporte_curso.aspx.designer.cs">
+      <DependentUpon>reporte_curso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reporte_docente.aspx.cs">
+      <DependentUpon>reporte_docente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reporte_docente.aspx.designer.cs">
+      <DependentUpon>reporte_docente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reporte_mesa_examen.aspx.cs">
+      <DependentUpon>reporte_mesa_examen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reporte_mesa_examen.aspx.designer.cs">
+      <DependentUpon>reporte_mesa_examen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NominaDocente.BLL\NominaDocente.BLL.csproj">
+      <Project>{F906206B-C063-4E3A-9E99-7055BD9F117A}</Project>
+      <Name>NominaDocente.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NominaDocente.DAL\NominaDocente.DAL.csproj">
+      <Project>{B85FCCE6-2C57-4C9E-88EA-B1B13C5B00E5}</Project>
+      <Name>NominaDocente.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NominaDocente.Entidades\NominaDocente.Entidades.csproj">
+      <Project>{A0A738A5-40DF-4E3C-B10F-8F39ED39551B}</Project>
+      <Name>NominaDocente.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\agency-fb.ttf" />
+    <None Include="fonts\icon.ttf" />
+    <None Include="fonts\Roboto-Light.ttf" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\NominaDocente.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\transformed\Web.config" />
+    <Content Include="obj\Debug\Package\PackageTmp\Site.Master" />
+    <Content Include="obj\Debug\Package\PackageTmp\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1555</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

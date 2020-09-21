@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="F:\usuarios\alumno\Escritorio\nominaDocente" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="nominaDocente" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="img/ficha-naranje.png" publishTime="09/16/2016 16:17:40" />
+    <file relUrl="NominaDocente.Publish.xml" publishTime="11/06/2016 17:36:25" />
+    <file relUrl="Site.Master" publishTime="11/03/2016 21:46:06" />
+    <file relUrl="reporte_mesa_examen.aspx" publishTime="11/06/2016 17:25:41" />
+    <file relUrl="bin/NominaDocente.Entidades.dll" publishTime="10/25/2016 14:07:03" />
+    <file relUrl="scripts/jquery.validate.min.js" publishTime="07/22/2016 17:42:34" />
+    <file relUrl="img/favicon.ico" publishTime="11/03/2016 20:59:33" />
+    <file relUrl="bin/WebApplication.dll" publishTime="11/07/2016 18:02:44" />
+    <file relUrl="content/css/bootstrap.min.css" publishTime="11/18/2013 15:28:40" />
+    <file relUrl="cons_docente.aspx" publishTime="11/04/2016 19:58:51" />
+    <file relUrl="reporte_curso.aspx" publishTime="11/04/2016 20:12:34" />
+    <file relUrl="bin/Docentes.BLL.dll" publishTime="11/06/2016 17:17:56" />
+    <file relUrl="styles/estilos.css" publishTime="11/07/2016 15:04:27" />
+    <file relUrl="img/fichas - copia (4).png" publishTime="09/16/2016 16:17:40" />
+    <file relUrl="img/fichas - copia (3).png" publishTime="09/16/2016 16:17:40" />
+    <file relUrl="bin/Docentes.DAL.dll" publishTime="11/06/2016 17:17:55" />
+    <file relUrl="scripts/script.js" publishTime="11/05/2016 18:50:45" />
+    <file relUrl="reg_carg_hor.aspx" publishTime="11/04/2016 19:58:26" />
+    <file relUrl="bin/Docentes.DAL.pdb" publishTime="11/06/2016 17:17:55" />
+    <file relUrl="img/ficha-violet.jpg" publishTime="09/16/2016 16:25:14" />
+    <file relUrl="img/Escudo.png" publishTime="11/03/2016 20:57:06" />
+    <file relUrl="reg_docente.aspx" publishTime="10/26/2016 20:59:20" />
+    <file relUrl="bin/WebApplication.pdb" publishTime="11/07/2016 18:02:43" />
+    <file relUrl="img/ficha-azul.jpg" publishTime="09/16/2016 16:23:54" />
+    <file relUrl="scripts/jquery-2.0.3.min.js" publishTime="11/18/2013 15:28:40" />
+    <file relUrl="content/css/Style.css" publishTime="08/26/2016 15:00:02" />
+    <file relUrl="mesa_examen.aspx" publishTime="11/07/2016 15:03:07" />
+    <file relUrl="bin/NominaDocente.Entidades.pdb" publishTime="10/25/2016 14:07:03" />
+    <file relUrl="index.aspx" publishTime="10/27/2016 18:44:10" />
+    <file relUrl="content/css/bootstrap.css" publishTime="10/28/2016 18:21:47" />
+    <file relUrl="reporte_docente.aspx" publishTime="11/04/2016 19:56:22" />
+    <file relUrl="scripts/bootstrap.js" publishTime="11/18/2013 15:28:40" />
+    <file relUrl="Web.config" publishTime="10/21/2016 19:00:27" />
+    <file relUrl="scripts/jquery.min.js" publishTime="09/14/2016 13:50:29" />
+    <file relUrl="scripts/bootstrap.min.js" publishTime="11/18/2013 15:28:40" />
+    <file relUrl="bin/Docentes.BLL.pdb" publishTime="11/06/2016 17:17:56" />
+  </publishProfile>
+</publishData>
