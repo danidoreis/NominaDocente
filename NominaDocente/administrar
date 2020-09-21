@@ -1,0 +1,27 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"CodeBehind="administrar.aspx.cs" Inherits="NominaDocente.administrar" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <form id="form1" runat="server">
+    <div class="campo">
+    <center>
+       <h1 class="titulo">Administrar</h1>
+        
+       
+               <asp:Button ID="Registrar" class="enviar_cons" 
+            runat="server"  PostBackUrl="~/registrar.aspx" Text="Registrar" 
+            Height="187px" Width="263px" onclick="Registrar_Click"/> 
+          
+            
+              <asp:Button ID="Modificar"  PostBackUrl="~/modificar.aspx" class="enviar_cons" runat="server" Text="Modificar" 
+            Height="187px" Width="263px" />
+            <asp:Button ID="Eliminar"  PostBackUrl="~/eliminar.aspx" class="enviar_cons" runat="server" Text="Eliminar" 
+            Height="187px" Width="263px"  />    
+            
+            
+            
+    </center>
+    </div>
+</form>
+</asp:Content>
